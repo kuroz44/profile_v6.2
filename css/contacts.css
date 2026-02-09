@@ -44,11 +44,7 @@
         width: 90%;
     }
 }
-@media (max-width: 400px) {
-    .contacts_contents {
-        width: 100%;
-    }
-}
+
 
 
 .grid-container_forContacts {

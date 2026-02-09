@@ -24,11 +24,7 @@
         width: 90%;
     }
 }
-@media (max-width: 500px) {
-    .skills_contents {
-        width: 100%;
-    }
-}
+
 
 
 .grid_container_skills {

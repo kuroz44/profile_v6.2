@@ -53,8 +53,3 @@
         width: 90%;
     }
 }
-@media (max-width: 400px) {
-    .home_contents {
-        width: 95%;
-    }
-}
