@@ -36,10 +36,10 @@
         <img src="assets/icons/mainLogo.png" height="28" alt="logo name neru" />
         <span class="menu-toggle" onclick="toggleMenu()">&#9776;</span>
         <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="index.html" class="active" onclick="va('track', 'Home Clicked')">Home</a></li>
+            <li><a href="projects.html" onclick="va('track', 'Projects Clicked')">Projects</a></li>
+            <li><a href="skills.html" onclick="va('track', 'Skills Clicked')">Skills</a></li>
+            <li><a href="contacts.html" onclick="va('track', 'Contacts Clicked')">Contacts</a></li>
         </ul>
     </nav>
 
@@ -87,10 +87,14 @@
 
     <script src="js/main.js"></script>
     <script src="js/navbar.js"></script>
+
+    <!-- Web Analytics in Vercel - start -->
+    <script src="js/navbar.js"></script>
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
+    <!-- Web Analytics in Vercel - end -->
 
 </body>
 </html>
